@@ -1,0 +1,36 @@
+1-  setup Modlishka to transfer real client ip to the end server (target domain). For example- passing client IP to the target proxified server instead of using real Modlishka server ip. This should be able to turn OFF and ON in the .json file
+
+
+2-  make the log file only capture ip address and useragent of clients only once. The current update captures logs non stop which leads to overloading of server due to large file.
+
+
+3-  Update the popup function so it captures inputs.
+
+
+4- For credParams function. Add the feature to Organise each credential parameter to appear according to the keywords which is input. For example for "email" parameter, results should show as "MAIL" in the admin panel. To achieve this, easy accesability must be implemented to change according admin. For example "email:MAIL".  I can elaborate on this further if you need more information.
+
+
+
+5-   Add javascript disable functionality: Add a feature which allows you to disable/remove certain scripts within the proxied website.
+
+
+
+6-   Organise the Admin panel. All the inputs should be shown from each client from chronological order. From most recent to last.
+
+
+
+7-   Make Modlishka capture all the inputs made by the client. 
+
+
+8-   Add the function to redirect users to a different page if a certain word is displayed on the reverse proxied page.
+
+
+9-   Add the function to show a Pop up window which can also capture inputs. The pop up should be able to be editable.
+
+
+10-  Setup a function which can redirect users to a different webpage if a certain criteria is met. eg. All users that visit the reverse proxy website which has the useragent "iphone" should be redirected. If a user visits from ip address starting 77.55.xx.xx should be redirected and so on.
+
+
+
+
+11-  Add a function which can extract certain data from the webpage and save it to admin panel.
